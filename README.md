@@ -8,6 +8,8 @@ In the article, they apply Kernighan–Lin (Graph Partitioning), while for my si
 ## 1. Path Selection Algorithm (Edmonds–Karp with BFS)
 
 ![alt text](image.png)
+Left graph: shows the initial state with all flows equal to zero and only capacities labeled.
+Right graph: shows the final state after applying the Edmonds–Karp algorithm: flows are distributed across P1 and P2 into D1 and D2, saturating both decode edges (D1→T, D2→T). The maximum flow of 120 is achieved after four augmenting paths fill the network until the decode stage becomes the bottleneck
 
 
 Each step “pushes” flow along one path, limited by the **bottleneck capacity** (minimum remaining capacity on that path):
