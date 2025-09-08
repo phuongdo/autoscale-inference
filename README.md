@@ -72,7 +72,6 @@ The chosen routes were:
 - P2 → D1: 25/120 = 20.8%  
 - P2 → D2: 35/120 = 29.2%  
 
----
 
 ## 4. Configuration Optimization Insights
 
