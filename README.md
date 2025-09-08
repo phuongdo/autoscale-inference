@@ -3,6 +3,7 @@
 > **Unofficial Implementation** of the **Edmonds–Karp Max-Flow** algorithm, adapted for **HexGen-2: Disaggregated Generative Inference of LLMs in Heterogeneous Environments**.
 Paper: https://arxiv.org/abs/2502.07903
 
+In the article, they apply Kernighan–Lin (Graph Partitioning), while for my simple proof of concept I used Edmonds–Karp (Max-Flow with BFS).
 
 ## 1. Path Selection Algorithm (Edmonds–Karp with BFS)
 
